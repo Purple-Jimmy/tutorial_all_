@@ -13,11 +13,20 @@
     <name>tutorial_elasticsearch</name>
 
     <properties>
-
+        <elasticsearch.version>6.4.3</elasticsearch.version>
     </properties>
 
     <dependencies>
-
-
+        <!-- Java High Level REST Client -->
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-client-sniffer</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
     </dependencies>
 </project>
