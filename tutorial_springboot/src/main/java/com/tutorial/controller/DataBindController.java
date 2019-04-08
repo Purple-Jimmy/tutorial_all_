@@ -1,0 +1,28 @@
+package com.tutorial.controller;
+
+import com.tutorial.databind.CityDataBind;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.bind.Bindable;
+import org.springframework.boot.context.properties.bind.Binder;
+import org.springframework.core.env.Environment;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+
+/**
+ * @author jimmy
+ * @date 2019-04-0822:23
+ */
+@RestController
+public class DataBindController {
+    @Autowired
+    Environment environment;
+
+    @RequestMapping("/cityBind")
+    public Object cityBind(){
+        Binder binder = Binder.get(environment);
+        List<CityDataBind> cityDataBinds = binder.bind("spring.city", Bindable.listOf(CityDataBind.class)).get();
+        return cityDataBinds;
+    }
+}

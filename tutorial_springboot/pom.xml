@@ -9,13 +9,27 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>tutorial_springboot</artifactId>
+    <packaging>jar</packaging>
     <name>tutorial_springboot</name>
 
     <properties>
-
     </properties>
 
     <dependencies>
-
+        <!--JPA-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <!--hibernate-envers 记录执行数据变更历史-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-envers</artifactId>
+            <version>5.3.1.Final</version>
+        </dependency>
     </dependencies>
 </project>

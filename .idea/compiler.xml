@@ -20,6 +20,22 @@
         <module name="tutorial_themeleaf" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="7" />
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tutorial_common" options="-parameters" />
+      <module name="tutorial_docker" options="-parameters" />
+      <module name="tutorial_elasticsearch" options="-parameters" />
+      <module name="tutorial_flink" options="-parameters" />
+      <module name="tutorial_java" options="-parameters" />
+      <module name="tutorial_kafka" options="-parameters" />
+      <module name="tutorial_mongodb" options="-parameters" />
+      <module name="tutorial_rabbitmq" options="-parameters" />
+      <module name="tutorial_redis" options="-parameters" />
+      <module name="tutorial_spring" options="-parameters" />
+      <module name="tutorial_springboot" options="-parameters" />
+      <module name="tutorial_themeleaf" options="-parameters" />
+    </option>
   </component>
 </project>
