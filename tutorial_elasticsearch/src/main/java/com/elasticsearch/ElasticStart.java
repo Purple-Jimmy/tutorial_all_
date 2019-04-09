@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2019-04-0822:29
  */
 @SpringBootApplication
-public class ElasticsearchStart {
+public class ElasticStart {
     public static void main(String[] args) {
-        SpringApplication.run(ElasticsearchStart.class,args);
+        SpringApplication.run(ElasticStart.class,args);
     }
 }

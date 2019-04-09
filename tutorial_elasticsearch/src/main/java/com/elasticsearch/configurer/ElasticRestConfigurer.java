@@ -32,7 +32,7 @@ import java.util.List;
  */
 @Slf4j
 @Configuration
-public class ElasticsearchRestConfigurer {
+public class ElasticRestConfigurer {
     @Value("${elasticsearch.urls}")
     String urls;
 

@@ -1,6 +1,6 @@
 package com.elasticsearch.demo6x;
 
-import com.elasticsearch.ElasticsearchStart;
+import com.elasticsearch.ElasticStart;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.admin.indices.get.GetIndexRequest;
 import org.elasticsearch.client.RequestOptions;
@@ -18,7 +18,7 @@ import java.io.IOException;
  * @date 2019-03-2516:21
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ElasticsearchStart.class)
+@SpringBootTest(classes = ElasticStart.class)
 @Slf4j
 public class IndexDemo {
     @Autowired

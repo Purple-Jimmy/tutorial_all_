@@ -1,6 +1,6 @@
 package com.elasticsearch.demo6x;
 
-import com.elasticsearch.ElasticsearchStart;
+import com.elasticsearch.ElasticStart;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
@@ -30,7 +30,7 @@ import java.util.concurrent.TimeUnit;
  * @Date: 2019/3/27
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ElasticsearchStart.class)
+@SpringBootTest(classes = ElasticStart.class)
 @Slf4j
 public class SearchDemo {
     @Autowired

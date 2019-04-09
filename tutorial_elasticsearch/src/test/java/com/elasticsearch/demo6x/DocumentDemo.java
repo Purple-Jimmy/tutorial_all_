@@ -1,7 +1,7 @@
 package com.elasticsearch.demo6x;
 
 import com.alibaba.fastjson.JSON;
-import com.elasticsearch.ElasticsearchStart;
+import com.elasticsearch.ElasticStart;
 import com.elasticsearch.entity.City;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.ActionListener;
@@ -38,7 +38,7 @@ import java.util.Map;
  * @date 2019-03-2516:01
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ElasticsearchStart.class)
+@SpringBootTest(classes = ElasticStart.class)
 @Slf4j
 public class DocumentDemo {
     @Autowired
