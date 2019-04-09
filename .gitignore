@@ -14,7 +14,7 @@ gen
 /target/
 # log4j.xml
 .DS_Store
-*.iml
+*.logs
 /.project
 /.settings
 /.classpath
