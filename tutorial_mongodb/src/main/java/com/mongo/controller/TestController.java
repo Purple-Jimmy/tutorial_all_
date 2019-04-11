@@ -1,15 +1,13 @@
-package com.tutorial.controller;
+package com.mongo.controller;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author jimmy
- * @date 2019-04-08 22:12
+ * @date 2019-04-11 11:30
  */
 @RestController
-@Slf4j
 public class TestController {
 
     @RequestMapping("/test")

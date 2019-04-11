@@ -1,15 +1,16 @@
-package com.tutorial;
+package com.mongo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author jimmy
- * @date 2019-04-08 22:08
+ * @date 2019-04-11 11:26
  */
 @SpringBootApplication
-public class SpringBootStart {
+public class MongoStart {
+
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootStart.class,args);
+        SpringApplication.run(MongoStart.class,args);
     }
 }
