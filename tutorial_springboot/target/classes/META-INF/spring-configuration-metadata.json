@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "spring.city",
+      "type": "com.tutorial.databind.CityDataBind",
+      "sourceType": "com.tutorial.databind.CityDataBind"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.city.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.tutorial.databind.CityDataBind"
+    },
+    {
+      "name": "spring.city.name",
+      "type": "java.lang.String",
+      "sourceType": "com.tutorial.databind.CityDataBind"
+    }
+  ],
+  "hints": []
+}

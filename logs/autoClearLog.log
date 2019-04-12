@@ -1,0 +1,35 @@
+2019-04-12 17:17:59.552 |-INFO  [restartedMain] com.tutorial.SpringBootStart [50] [ LOGID: ]-| Starting SpringBootStart on jimmyMacBook-Pro.local with PID 12212 (/Users/zhoucheng/tutorial_space/tutorial_all_/tutorial_springboot/target/classes started by zhoucheng in /Users/zhoucheng/tutorial_space/tutorial_all_)
+2019-04-12 17:17:59.556 |-INFO  [restartedMain] com.tutorial.SpringBootStart [679] [ LOGID: ]-| The following profiles are active: dev
+2019-04-12 17:18:00.001 |-INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] [ LOGID: ]-| Bootstrapping Spring Data repositories in DEFERRED mode.
+2019-04-12 17:18:00.014 |-INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] [ LOGID: ]-| Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-04-12 17:18:00.198 |-INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] [ LOGID: ]-| Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$374117f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-12 17:18:00.462 |-INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] [ LOGID: ]-| Tomcat initialized with port(s): 8080 (http)
+2019-04-12 17:18:00.471 |-INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol [173] [ LOGID: ]-| Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-12 17:18:00.476 |-INFO  [restartedMain] org.apache.catalina.core.StandardService [173] [ LOGID: ]-| Starting service [Tomcat]
+2019-04-12 17:18:00.477 |-INFO  [restartedMain] org.apache.catalina.core.StandardEngine [173] [ LOGID: ]-| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-12 17:18:00.481 |-INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener [173] [ LOGID: ]-| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhoucheng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-12 17:18:00.575 |-INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] [ LOGID: ]-| Initializing Spring embedded WebApplicationContext
+2019-04-12 17:18:00.575 |-INFO  [restartedMain] org.springframework.web.context.ContextLoader [296] [ LOGID: ]-| Root WebApplicationContext: initialization completed in 941 ms
+2019-04-12 17:18:00.675 |-INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] [ LOGID: ]-| Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 17:18:00.700 |-INFO  [task-1] org.hibernate.jpa.internal.util.LogHelper [31] [ LOGID: ]-| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-12 17:18:00.743 |-INFO  [task-1] org.hibernate.Version [46] [ LOGID: ]-| HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-12 17:18:00.746 |-INFO  [task-1] org.hibernate.cfg.Environment [213] [ LOGID: ]-| HHH000206: hibernate.properties not found
+2019-04-12 17:18:00.821 |-INFO  [task-1] org.hibernate.annotations.common.Version [49] [ LOGID: ]-| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-12 17:18:00.872 |-WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [236] [ LOGID: ]-| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-12 17:18:00.900 |-INFO  [task-1] com.zaxxer.hikari.HikariDataSource [110] [ LOGID: ]-| TUTORIAL-POOL - Starting...
+2019-04-12 17:18:01.091 |-INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [57] [ LOGID: ]-| LiveReload server is running on port 35729
+2019-04-12 17:18:01.113 |-INFO  [restartedMain] org.springframework.data.repository.config.DeferredRepositoryInitializationListener [49] [ LOGID: ]-| Triggering deferred initialization of Spring Data repositories…
+2019-04-12 17:18:01.114 |-INFO  [restartedMain] org.springframework.data.repository.config.DeferredRepositoryInitializationListener [53] [ LOGID: ]-| Spring Data repositories initialized!
+2019-04-12 17:18:01.123 |-INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol [173] [ LOGID: ]-| Starting ProtocolHandler ["http-nio-8080"]
+2019-04-12 17:18:01.150 |-INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] [ LOGID: ]-| Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-12 17:18:01.153 |-INFO  [restartedMain] com.tutorial.SpringBootStart [59] [ LOGID: ]-| Started SpringBootStart in 1.887 seconds (JVM running for 2.731)
+2019-04-12 17:18:01.243 |-INFO  [task-1] com.zaxxer.hikari.HikariDataSource [123] [ LOGID: ]-| TUTORIAL-POOL - Start completed.
+2019-04-12 17:18:01.254 |-INFO  [task-1] org.hibernate.dialect.Dialect [157] [ LOGID: ]-| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-12 17:18:01.335 |-INFO  [task-1] org.hibernate.envers.boot.internal.EnversServiceImpl [92] [ LOGID: ]-| Envers integration enabled? : true
+2019-04-12 17:18:01.528 |-INFO  [task-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [415] [ LOGID: ]-| Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-12 17:35:05.968 |-INFO  [Thread-13] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [597] [ LOGID: ]-| Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-12 17:35:05.972 |-INFO  [Thread-13] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] [ LOGID: ]-| Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-12 17:35:05.974 |-INFO  [Thread-13] com.zaxxer.hikari.HikariDataSource [350] [ LOGID: ]-| TUTORIAL-POOL - Shutdown initiated...
+2019-04-12 17:35:05.976 |-INFO  [Thread-13] com.zaxxer.hikari.HikariDataSource [352] [ LOGID: ]-| TUTORIAL-POOL - Shutdown completed.

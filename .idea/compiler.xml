@@ -7,15 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tutorial_mongodb" />
-        <module name="tutorial_springboot" />
         <module name="tutorial_kafka" />
         <module name="tutorial_docker" />
-        <module name="tutorial_java" />
         <module name="tutorial_rabbitmq" />
+        <module name="tutorial_springboot" />
         <module name="tutorial_themeleaf" />
-        <module name="tutorial_flink" />
-        <module name="tutorial_spring" />
         <module name="tutorial_elasticsearch" />
+        <module name="tutorial_java" />
+        <module name="tutorial_spring" />
+        <module name="tutorial_flink" />
         <module name="tutorial_common" />
         <module name="tutorial_redis" />
       </profile>

@@ -1,8 +1,9 @@
 package com.mongo.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
 import java.util.List;
@@ -13,7 +14,8 @@ import java.util.List;
  * @date 2019-04-11 11:39
  */
 @Data
-@Document(collection = "book")
+@AllArgsConstructor
+@NoArgsConstructor
 public class Book implements Serializable {
     private static final long serialVersionUID = -4497394987618721164L;
 
