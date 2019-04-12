@@ -12,6 +12,7 @@
 out
 gen
 /target/
+*.target
 # log4j.xml
 .DS_Store
 *.logs
