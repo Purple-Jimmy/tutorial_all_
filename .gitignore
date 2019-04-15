@@ -16,6 +16,7 @@ gen
 # log4j.xml
 .DS_Store
 *.logs
+/logs
 /.project
 /.settings
 /.classpath
